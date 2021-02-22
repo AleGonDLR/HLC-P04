@@ -1,0 +1,102 @@
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    font-family: Arial;
+    font-size:20px;
+    text-decoration: none;
+    float:left;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+#menu li a:hover {
+background-color: grey;
+padding-bottom:20px;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/vectors/abstract-white-background-geometric-texture-vector-id1069183510?k=6&m=1069183510&s=612x612&w=0&h=IsR2U2IjDpCVAyY6oeeANwvIP1SHpBalMZPB_QNGnbw=");
+    background-color: #cccccc;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textInicio {
+    text-align: center;
+}
+
+/* Para los h1 */
+h1 {
+  display: inline;
+  font-size: 50px;
+  font-family: Arial;
+  text-transform: uppercase;
+  background: linear-gradient(7deg, grey 50%, black 0);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Arial;
+}
+
+#tablaLista {
+    margin: auto;
+}
+
+#tablaLista td{
+
+}
+#tablaLista td:hover{
+  background-color: lightslategrey;
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 1);
+  transform: scale(1.1);
+}
+article {
+    margin: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#tablaDetalles {
+     margin: auto;
+     border: 6px solid black;
+
+}
+
+#tablaDetalles th{
+    border-bottom: 6px double black;
+    text-align: center;
+}
+
+
+#tablaDetalles tr{
+   border:  2px solid black;
+}
+
+#tablaDetalles td{
+ border:  2px solid black;
+}
+
+#derechaTD {
+    text-align: right;
+}
+
+p {
+    font-family: Arial;
+    font-size: 25px;
+    margin: 10px;
+}
+
